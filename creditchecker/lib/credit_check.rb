@@ -36,10 +36,3 @@ else
   puts "Invalid"
 end
 
-
-#p double
-#axioms and set theory
-#edge case not including in this set
-#number that is false
-#number too short, too long
-#number valid or Invalid
