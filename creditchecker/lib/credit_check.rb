@@ -28,10 +28,10 @@ end
 sum.each do |value|
   total_sum+= value
 end
+p total_sum
 
 if total_sum % 10 == 0
   puts "Valid"
 else
   puts "Invalid"
 end
-
