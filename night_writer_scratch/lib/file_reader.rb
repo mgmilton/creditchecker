@@ -10,11 +10,13 @@ class FileReader
     message.each do |line|
       @chars += line.length
     end
+
     string = ""
     message.each do |line|
       string += "#{line}\r"*3
     end
-    message.close
+
+
     writer = File.open(ARGV[1], "w") {|line|
       line << string
     }

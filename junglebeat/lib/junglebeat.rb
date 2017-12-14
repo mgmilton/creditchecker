@@ -1,7 +1,7 @@
 require_relative 'linked_list'
 require_relative 'node'
 
-class JungleBeat < LinkedList
+class JungleBeat 
   attr_reader   :list
 
   def initialize
