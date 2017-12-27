@@ -1,7 +1,7 @@
 # Git #
 ########
 *.orig
-coverage
+
 
 # macOS #
 #########
@@ -105,6 +105,6 @@ bower.json
 *.tar
 *.zip
 
-# SimpleCov #
-#############
-coverage
+# Ignore test-related files
+/coverage.data
+/coverage/
